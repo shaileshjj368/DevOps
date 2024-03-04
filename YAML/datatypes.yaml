@@ -1,0 +1,46 @@
+#String variable
+myself: Shailesh Joshi
+fruit: "Mango"
+job: 'coder'
+
+bio: |
+hey my name is Shailesh Joshi.
+I am a pretty well coder.
+
+#write a single line in multiple line
+message: >
+this will
+all be in a
+single line.
+
+number: 5467
+marks: 89.20 #float
+booleanValue: No #n, N, false, False, FALSE
+#same for true -> yes,y,Y
+
+#Specify the types
+zero: !!int 0
+positivenum: !!int 45
+negativenum: !!int -45
+binarynum: !!int 0b110101
+octalnum: !!int 06574
+hexanum: !!int 0x45AB
+commavalue: !!int +540_000  #540,000
+expotenial numbers: 6.234E45 
+#floating point num
+marks: !!float 56.78
+infinite: !!float .inf
+not a num: .nan 
+
+#string
+str: !!str "I am working on yaml"
+
+#boolean
+bol: !!bool n
+
+#null
+surname: !!null Null # or null NULL ~
+~: This is a null key
+
+#dates and time
+date: !!timestamp 2002-03-13

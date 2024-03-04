@@ -1,0 +1,18 @@
+"apple" : "I am a red fruit"
+1 : "I am Ironman"
+---
+#lists
+- apple
+- mango
+- banana
+- Apple
+--- # Seperates the document
+cities:
+  - new delhi
+  - mumbai
+  - surat
+---
+cities: [new delhi,mumbai,surat]
+---
+{mango: "yellow fruit", age: 15}
+... # Ends the document

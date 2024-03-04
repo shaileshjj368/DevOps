@@ -1,0 +1,18 @@
+						YAML Course
+*********************************************************************************************************
+previous full form : yet another markup language
+new full form : YAML ain't Markup Language
+Data format used to exchange data
+Similar to XML and JSON
+You can store only data and not commands
+Data Serialisation: A process of converting a data objects into a complex data structure or stream of byte/storage.
+Data Deserialisation: A process of converting stream of byte/storage into data object
+Data serialisation language: YAML,JSON,XML
+Benefits:
+1. Simple and easy to read
+2. It has s strict syntax - Indentation is imp
+3. Easily convertable to JSON,XML
+4. More powerful when representing complex data
+5. Parsers,etc various tool available
+Dictionary is used to respresent the entire seq into a value
+Anchors:Reusing some properties 
